@@ -313,12 +313,12 @@ void deleteStuff(vector<media*>* storeMedia) {
                     if (yesorno == 1) {
                         delete* deleteskis;
                         deleteskis = storeMedia->erase(deleteskis);
-                        cout << "MOVIE DELETED" << endl;
+                        cout << "VIDEO GAME DELETED" << endl;
                         yesorno = 0;
                         return;
                     }
                     else if (yesorno == 2) {
-                        cout << "MOVIE WAS NOT DELETED." << endl;
+                        cout << "VIDEO GAME WAS NOT DELETED." << endl;
                         yesorno;
                     }
                 }
